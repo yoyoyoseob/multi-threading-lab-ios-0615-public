@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5AD76A438F7849D78E34FA47 /* libPods-multiThreadLabTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB57F108F0C430EB165588C /* libPods-multiThreadLabTests.a */; };
+		CACE3AB319009E8D00EDD043 /* FISViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = CACE3AB219009E8D00EDD043 /* FISViewControllerSpec.m */; };
 		D83B028618E078EA00F66BF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83B028518E078EA00F66BF5 /* Foundation.framework */; };
 		D83B028818E078EA00F66BF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83B028718E078EA00F66BF5 /* CoreGraphics.framework */; };
 		D83B028A18E078EA00F66BF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83B028918E078EA00F66BF5 /* UIKit.framework */; };
@@ -21,7 +22,6 @@
 		D83B02A618E078EA00F66BF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83B028518E078EA00F66BF5 /* Foundation.framework */; };
 		D83B02A718E078EA00F66BF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83B028918E078EA00F66BF5 /* UIKit.framework */; };
 		D83B02AF18E078EA00F66BF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D83B02AD18E078EA00F66BF5 /* InfoPlist.strings */; };
-		D83B02B118E078EA00F66BF5 /* multiThreadLabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D83B02B018E078EA00F66BF5 /* multiThreadLabTests.m */; };
 		D84D757C18E0AA980007537C /* zip_codes_states.csv in Resources */ = {isa = PBXBuildFile; fileRef = D84D757B18E0AA980007537C /* zip_codes_states.csv */; };
 		D84D75B318E0AAB60007537C /* AL.png in Resources */ = {isa = PBXBuildFile; fileRef = D84D757E18E0AAB60007537C /* AL.png */; };
 		D84D75B418E0AAB60007537C /* AK.png in Resources */ = {isa = PBXBuildFile; fileRef = D84D757F18E0AAB60007537C /* AK.png */; };
@@ -87,6 +87,7 @@
 
 /* Begin PBXFileReference section */
 		1FB57F108F0C430EB165588C /* libPods-multiThreadLabTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-multiThreadLabTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CACE3AB219009E8D00EDD043 /* FISViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISViewControllerSpec.m; sourceTree = "<group>"; };
 		CE41DDF50AD240559C66D098 /* Pods-multiThreadLabTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multiThreadLabTests.xcconfig"; path = "Pods/Pods-multiThreadLabTests.xcconfig"; sourceTree = "<group>"; };
 		D83B028218E078EA00F66BF5 /* multiThreadLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multiThreadLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D83B028518E078EA00F66BF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -106,7 +107,6 @@
 		D83B02A418E078EA00F66BF5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D83B02AC18E078EA00F66BF5 /* multiThreadLabTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "multiThreadLabTests-Info.plist"; sourceTree = "<group>"; };
 		D83B02AE18E078EA00F66BF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D83B02B018E078EA00F66BF5 /* multiThreadLabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = multiThreadLabTests.m; sourceTree = "<group>"; };
 		D84D757B18E0AA980007537C /* zip_codes_states.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = zip_codes_states.csv; sourceTree = "<group>"; };
 		D84D757E18E0AAB60007537C /* AL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AL.png; sourceTree = "<group>"; };
 		D84D757F18E0AAB60007537C /* AK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AK.png; sourceTree = "<group>"; };
@@ -247,7 +247,7 @@
 		D83B02AA18E078EA00F66BF5 /* multiThreadLabTests */ = {
 			isa = PBXGroup;
 			children = (
-				D83B02B018E078EA00F66BF5 /* multiThreadLabTests.m */,
+				CACE3AB219009E8D00EDD043 /* FISViewControllerSpec.m */,
 				D83B02AB18E078EA00F66BF5 /* Supporting Files */,
 			);
 			path = multiThreadLabTests;
@@ -513,7 +513,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D83B02B118E078EA00F66BF5 /* multiThreadLabTests.m in Sources */,
+				CACE3AB319009E8D00EDD043 /* FISViewControllerSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
