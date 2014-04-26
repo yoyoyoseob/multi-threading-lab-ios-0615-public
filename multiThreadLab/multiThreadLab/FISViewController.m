@@ -9,7 +9,13 @@
 #import "FISViewController.h"
 
 @interface FISViewController ()
-
+@property (weak, nonatomic) IBOutlet UITextField *zipCode;
+@property (weak, nonatomic) IBOutlet UILabel *countyLabel;
+@property (weak, nonatomic) IBOutlet UILabel *cityLabel;
+@property (weak, nonatomic) IBOutlet UILabel *stateLabel;
+@property (weak, nonatomic) IBOutlet UILabel *latitudeLabel;
+@property (weak, nonatomic) IBOutlet UILabel *longitudeLabel;
+- (IBAction)searchZipCodeTapped:(id)sender;
 @end
 
 @implementation FISViewController
