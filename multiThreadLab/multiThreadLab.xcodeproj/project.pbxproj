@@ -10,7 +10,6 @@
 		5AD76A438F7849D78E34FA47 /* libPods-multiThreadLabTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB57F108F0C430EB165588C /* libPods-multiThreadLabTests.a */; };
 		CACE3AB319009E8D00EDD043 /* FISViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = CACE3AB219009E8D00EDD043 /* FISViewControllerSpec.m */; };
 		D8298872190709A000A68C8A /* FISZipCodeSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D8298870190709A000A68C8A /* FISZipCodeSpec.m */; };
-		D838067B19047AA3006E642C /* FISZipSearchOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D838067A19047AA3006E642C /* FISZipSearchOperation.m */; };
 		D838067E19047BF3006E642C /* FISZipCode.m in Sources */ = {isa = PBXBuildFile; fileRef = D838067D19047BF3006E642C /* FISZipCode.m */; };
 		D83B028618E078EA00F66BF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83B028518E078EA00F66BF5 /* Foundation.framework */; };
 		D83B028818E078EA00F66BF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83B028718E078EA00F66BF5 /* CoreGraphics.framework */; };
@@ -25,6 +24,7 @@
 		D83B02A618E078EA00F66BF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83B028518E078EA00F66BF5 /* Foundation.framework */; };
 		D83B02A718E078EA00F66BF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83B028918E078EA00F66BF5 /* UIKit.framework */; };
 		D83B02AF18E078EA00F66BF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D83B02AD18E078EA00F66BF5 /* InfoPlist.strings */; };
+		D8451320190C4A7C00C13DE1 /* FISZipSearchOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D845131F190C4A7C00C13DE1 /* FISZipSearchOperation.m */; };
 		D84D757C18E0AA980007537C /* zip_codes_states.csv in Resources */ = {isa = PBXBuildFile; fileRef = D84D757B18E0AA980007537C /* zip_codes_states.csv */; };
 		D8FC36AF19082F09005CC68D /* FISZipSearchOperationSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FC36AE19082F09005CC68D /* FISZipSearchOperationSpec.m */; };
 		E9033136DAE24FF1AC4ADE4D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5E09DF12F14986B67E9436 /* libPods.a */; };
@@ -47,8 +47,6 @@
 		CACE3AB219009E8D00EDD043 /* FISViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISViewControllerSpec.m; sourceTree = "<group>"; };
 		CE41DDF50AD240559C66D098 /* Pods-multiThreadLabTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multiThreadLabTests.xcconfig"; path = "Pods/Pods-multiThreadLabTests.xcconfig"; sourceTree = "<group>"; };
 		D8298870190709A000A68C8A /* FISZipCodeSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FISZipCodeSpec.m; path = multiThreadLabTests/FISZipCodeSpec.m; sourceTree = SOURCE_ROOT; };
-		D838067919047AA2006E642C /* FISZipSearchOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISZipSearchOperation.h; sourceTree = "<group>"; };
-		D838067A19047AA3006E642C /* FISZipSearchOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISZipSearchOperation.m; sourceTree = "<group>"; };
 		D838067C19047BF3006E642C /* FISZipCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISZipCode.h; sourceTree = "<group>"; };
 		D838067D19047BF3006E642C /* FISZipCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISZipCode.m; sourceTree = "<group>"; };
 		D83B028218E078EA00F66BF5 /* multiThreadLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multiThreadLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +67,8 @@
 		D83B02A418E078EA00F66BF5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D83B02AC18E078EA00F66BF5 /* multiThreadLabTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "multiThreadLabTests-Info.plist"; sourceTree = "<group>"; };
 		D83B02AE18E078EA00F66BF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D845131E190C4A7C00C13DE1 /* FISZipSearchOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISZipSearchOperation.h; sourceTree = "<group>"; };
+		D845131F190C4A7C00C13DE1 /* FISZipSearchOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISZipSearchOperation.m; sourceTree = "<group>"; };
 		D84D757B18E0AA980007537C /* zip_codes_states.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = zip_codes_states.csv; sourceTree = "<group>"; };
 		D8FC36AE19082F09005CC68D /* FISZipSearchOperationSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISZipSearchOperationSpec.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -143,8 +143,8 @@
 				D83B029B18E078EA00F66BF5 /* FISViewController.m */,
 				D838067C19047BF3006E642C /* FISZipCode.h */,
 				D838067D19047BF3006E642C /* FISZipCode.m */,
-				D838067919047AA2006E642C /* FISZipSearchOperation.h */,
-				D838067A19047AA3006E642C /* FISZipSearchOperation.m */,
+				D845131E190C4A7C00C13DE1 /* FISZipSearchOperation.h */,
+				D845131F190C4A7C00C13DE1 /* FISZipSearchOperation.m */,
 				D84D757B18E0AA980007537C /* zip_codes_states.csv */,
 				D83B029D18E078EA00F66BF5 /* Images.xcassets */,
 				D83B028C18E078EA00F66BF5 /* Supporting Files */,
@@ -352,7 +352,7 @@
 				D83B029C18E078EA00F66BF5 /* FISViewController.m in Sources */,
 				D838067E19047BF3006E642C /* FISZipCode.m in Sources */,
 				D83B029218E078EA00F66BF5 /* main.m in Sources */,
-				D838067B19047AA3006E642C /* FISZipSearchOperation.m in Sources */,
+				D8451320190C4A7C00C13DE1 /* FISZipSearchOperation.m in Sources */,
 				D83B029618E078EA00F66BF5 /* FISAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
