@@ -32,6 +32,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.view.accessibilityLabel=@"Main View";
     // Do any additional setup after loading the view.
 }
 
