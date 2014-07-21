@@ -9,15 +9,15 @@ Your goal is to make a zip code look-up application. Sadly, that is uninterestin
 
 ## Instructions
 
-### Intro
+### Intro (Everything in VC)
 
-  1. Randomly change the background color every .25 seconds. I'd recommend using `NSTimer scheduledTimerWithTimeInterval:target:selector:userInfo:repeats:`
-  2. First lets do this all synchronously. On tap of the search button, parse the included CSV file and display the lat,long, City, State,county and state flag in the appropriate locations.
-  3. If you run this on your phone, you'll notice that the disco background stops updating! Oh no! So let's multi-thread this. Put the lookup on the background thread. Implement this however you'd like
+  1. Randomly change the background color of `self.view` every .25 seconds. I'd recommend using `NSTimer scheduledTimerWithTimeInterval:target:selector:userInfo:repeats:` [Here is an awesome Tutorial](http://ios-blog.co.uk/tutorials/objective-c-using-nstimer/).
+  2. First lets do this all synchronously. On tap of the search button, parse the included CSV file and display the lat,long, City, State,county and state flag in the appropriate locations. A CSV is a comma separated Value file. Take a look at it and you'll see what it looks like. First you'll need to separate each line out using `componentsSeparatedByString`. Keep in mind "\n" is new line. Once you have each line, you'll have to separate each column by comma to get the appropriate field. Same thing, different separater string.
+  3. If you run this on your phone, you'll notice that the disco background stops updating! Oh no! So let's multi-thread this. Put the lookup on the background thread. And everything should work fine!
 
 ### Advanced
 
-  1. So let's switch the ADVANCED tests by adding the ADVANCED preprocessor macro.
+  1. So let's switch the ADVANCED tests by adding the ADVANCED preprocessor macro. Click on the project name, then go to Build Settings. Search for Preprocessor and you'll get a `Preprocessor Macros` field. Double click and add `ADVANCED`.
   2. Our view controller shouldn't be doing any of this csv processing in the ViewController. That sort of data processing belongs in models. Create an `FISZipCode` object. This object should have the following fields:
     
     ```
